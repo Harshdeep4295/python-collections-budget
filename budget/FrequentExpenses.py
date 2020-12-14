@@ -22,7 +22,7 @@ class FrequentExpenses():
 
     categories, count = zip(*top5)
     
-    fix, ax = plt.subplots()
+    fig, ax = plt.subplots()
     
     ax.bar(categories, count)
     
